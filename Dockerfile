@@ -1,4 +1,4 @@
-FROM : python-alpine3.10
+FROM python:alpine3.10
 RUN mkdir flask-hello-world
 ADD . /flask-hello-world
 RUN cd flask-hello-world && \
